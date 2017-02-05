@@ -27,5 +27,5 @@ int main(){
         fibo[i] = add(fibo[i - 1], fibo[i - 2]);
     while(cin >> n)
         cout << "The Fibonacci number for " << n << " is " << fibo[n] << endl;
-        return 0;
+    return 0;
 }
