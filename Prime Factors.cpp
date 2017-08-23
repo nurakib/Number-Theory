@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 void primefactors(int n){
     while(n % 2 == 0){
         cout << 2 << " ";
@@ -14,6 +15,7 @@ void primefactors(int n){
     if(n > 2)
         cout << n << endl;
 }
+
 int main(){
     int n;
     cin >> n;
